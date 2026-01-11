@@ -1,0 +1,5 @@
+# Kids Video Player - Robots.txt
+# This is a private PWA app, no indexing needed
+
+User-agent: *
+Disallow: /

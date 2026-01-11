@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B5CE7"/>
+      <stop offset="100%" style="stop-color:#4B3CC7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bg512)"/>
+  <!-- Play button circle -->
+  <circle cx="256" cy="256" r="140" fill="white" opacity="0.95"/>
+  <!-- Play triangle -->
+  <path d="M220 180 L220 332 L340 256 Z" fill="#6B5CE7"/>
+  <!-- Sparkles -->
+  <circle cx="100" cy="100" r="16" fill="#FFE66D"/>
+  <circle cx="412" cy="100" r="16" fill="#FF6B9D"/>
+  <circle cx="100" cy="412" r="16" fill="#4ECDC4"/>
+  <circle cx="412" cy="412" r="16" fill="#95E1D3"/>
+  <!-- Stars -->
+  <path d="M80 256 L90 266 L80 276 L70 266 Z" fill="#FFE66D"/>
+  <path d="M432 256 L442 266 L432 276 L422 266 Z" fill="#FF85A2"/>
+</svg>
