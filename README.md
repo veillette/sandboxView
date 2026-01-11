@@ -1,5 +1,7 @@
 # Kids Video Player
 
+**Live Demo:** [https://veillette.github.io/sandboxView/](https://veillette.github.io/sandboxView/)
+
 A "Walled Garden" video player Progressive Web App (PWA) designed for young children. This app provides a safe, controlled environment where kids can only watch pre-approved YouTube videos without access to search, recommendations, comments, or external links.
 
 ## Features
@@ -136,10 +138,10 @@ Edit `src/data/videos.json` to change the default videos:
 ```json
 [
   {
-    "id": "XqZsoesa55w",      // YouTube video ID
-    "title": "Baby Shark",    // Display title
-    "emoji": "🦈",            // Thumbnail emoji
-    "color": "#FF6B6B"        // Card background color
+    "id": "6A_uNfM-m9M",       // YouTube video ID
+    "title": "Chanson thème",  // Display title
+    "emoji": "🏠",             // Thumbnail emoji
+    "color": "#FF6B6B"         // Card background color
   }
 ]
 ```
@@ -212,10 +214,13 @@ npm run build
 # Drag 'dist' folder to Netlify
 ```
 
-### Option 3: GitHub Pages
+### Option 3: GitHub Pages (Automatic)
 
-1. Build the app: `npm run build`
-2. Deploy the `dist` folder to GitHub Pages
+This repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages on every push to `main`:
+
+1. Enable GitHub Pages in your repository settings (Settings > Pages > Source: GitHub Actions)
+2. Push to the `main` branch
+3. The app will be deployed to `https://<username>.github.io/<repo-name>/`
 
 ### Option 4: Self-Hosted
 
@@ -274,4 +279,4 @@ This is a personal/family project. Feel free to fork and customize for your own 
 
 ---
 
-Made with love for little ones who just want to watch Baby Shark on repeat.
+Made with love for little ones who just want to watch their favorite videos on repeat.
