@@ -358,20 +358,62 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, transparent 100%);
   pointer-events: auto;
   z-index: 105;
 }
 
-.player-overlay-bottom {
+/* Bottom-left overlay - blocks left side buttons */
+.player-overlay-bottom-left {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 20%;
+  height: 80px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+  pointer-events: auto;
+  z-index: 105;
+}
+
+/* Bottom-right overlay - blocks "Watch on YouTube" and right-side buttons */
+.player-overlay-bottom-right {
+  position: absolute;
+  bottom: 0;
   right: 0;
-  height: 60px;
-  background: transparent;
-  pointer-events: none;
+  width: 25%;
+  height: 100px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.4) 50%,
+    transparent 100%
+  );
+  pointer-events: auto;
+  z-index: 105;
+}
+
+/* Side overlays to block YouTube logo and other side buttons */
+.player-overlay-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
+  pointer-events: auto;
+  z-index: 105;
+}
+
+/* Right overlay - blocks "Watch on YouTube" and other right-side buttons */
+.player-overlay-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 180px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
+  pointer-events: auto;
   z-index: 105;
 }
 

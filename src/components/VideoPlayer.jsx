@@ -28,7 +28,7 @@ const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
    * These parameters create a "walled garden" experience:
    * - rel: 0 - Don't show related videos from other channels
    * - modestbranding: 1 - Minimal YouTube branding
-   * - controls: 1 - Show playback controls (needed for kids)
+   * - controls: 1 - Show playback controls (including slider)
    * - disablekb: 1 - Disable keyboard controls (prevents shortcuts)
    * - fs: 0 - Disable fullscreen button (we're already fullscreen)
    * - iv_load_policy: 3 - Hide video annotations
@@ -43,7 +43,7 @@ const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
     playerVars: {
       rel: 0,
       modestbranding: 1,
-      controls: 1,
+      controls: 1, // Show controls to enable slider
       disablekb: 1,
       fs: 0,
       iv_load_policy: 3,
@@ -197,9 +197,13 @@ const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
               iframeClassName="youtube-iframe"
             />
 
-            {/* Overlay to block YouTube logo and other clickable elements */}
+            {/* Overlays to block YouTube logo and other clickable elements */}
+            {/* Note: Center-bottom area is left open for the play slider */}
             <div className="player-overlay-top" />
-            <div className="player-overlay-bottom" />
+            <div className="player-overlay-bottom-left" />
+            <div className="player-overlay-bottom-right" />
+            <div className="player-overlay-left" />
+            <div className="player-overlay-right" />
           </>
         ) : (
           /* Local HTML5 Video Player */
