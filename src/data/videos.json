@@ -1,74 +1,602 @@
 [
   {
-    "id": "6A_uNfM-m9M",
-    "title": "Chanson thème",
-    "emoji": "🏠",
+    "id": "PWuyB__8INk",
+    "title": "Épisode 1 - Bonjour",
+    "emoji": "👋",
     "color": "#FF6B6B"
   },
   {
-    "id": "W6h8p2T2sM8",
-    "title": "Brosse, brosse, brosse",
-    "emoji": "🪥",
+    "id": "TFwE9ucCCYk",
+    "title": "Épisode 2 - Les Deux Côtés",
+    "emoji": "↔️",
     "color": "#4ECDC4"
   },
   {
-    "id": "r6S7qA885rM",
-    "title": "Les beaux poissons",
-    "emoji": "🐠",
+    "id": "s5wbxYcZWpU",
+    "title": "Épisode 3 - Chacun Son Tour",
+    "emoji": "🔄",
     "color": "#FFE66D"
   },
   {
-    "id": "G_sU309fOic",
-    "title": "Bedon rond",
-    "emoji": "🤰",
+    "id": "AF1h6FPMPRo",
+    "title": "Épisode 4 - Qui Est Là",
+    "emoji": "👀",
     "color": "#95E1D3"
   },
   {
-    "id": "i3nS4L-LwV0",
-    "title": "Allô!",
-    "emoji": "👋",
+    "id": "16AvCnLvOfY",
+    "title": "Épisode 5 - Poils et Plumes",
+    "emoji": "🦆",
     "color": "#A78BFA"
   },
   {
-    "id": "Bv_4y_F_K-4",
-    "title": "Une araignée",
-    "emoji": "🕷️",
+    "id": "gLgHveV5N9g",
+    "title": "Épisode 6 - Pousse-Tire",
+    "emoji": "🚪",
     "color": "#67B7DC"
   },
   {
-    "id": "B28C2wJbX8E",
-    "title": "Les vêtements",
-    "emoji": "👖",
+    "id": "qvbH718F5SM",
+    "title": "Épisode 7 - Coq Ou Poule",
+    "emoji": "🐔",
     "color": "#FDCB6E"
   },
   {
-    "id": "D-K6oXG1v1w",
-    "title": "Il y a un p'tit cœur",
-    "emoji": "❤️",
+    "id": "TTxc68k8sXY",
+    "title": "Épisode 8 - Partage",
+    "emoji": "🤝",
     "color": "#FF85A2"
   },
   {
-    "id": "Mvj2G4F1D74",
-    "title": "Frotte tes mains",
-    "emoji": "🧼",
+    "id": "ytET8OZWLNU",
+    "title": "Épisode 9 - Plein et Vide",
+    "emoji": "📦",
     "color": "#B2F2BB"
   },
   {
-    "id": "y3jW0U_6r3U",
-    "title": "La ferme de Grand-Papa",
-    "emoji": "🚜",
+    "id": "vBRH4gj1HbQ",
+    "title": "Épisode 10 - La Flûte",
+    "emoji": "🎵",
     "color": "#C4B5FD"
   },
   {
-    "id": "L_T0N9j9z5s",
-    "title": "Si tu as de la joie",
-    "emoji": "😊",
+    "id": "nG0vCZQMzeQ",
+    "title": "Épisode 11 - Le Petit Zèbre",
+    "emoji": "🦓",
     "color": "#F9A826"
   },
   {
-    "id": "Zp99tV6mJp4",
-    "title": "Minou",
-    "emoji": "🐱",
+    "id": "7B_bAR1BinQ",
+    "title": "Épisode 12 - Virgule",
+    "emoji": "✏️",
     "color": "#FF9FF3"
+  },
+  {
+    "id": "uy2-3ar2nk4",
+    "title": "Épisode 13 - Le Jardin",
+    "emoji": "🌻",
+    "color": "#81C784"
+  },
+  {
+    "id": "7S2o-jNBEs8",
+    "title": "Épisode 14 - L'éléphant",
+    "emoji": "🐘",
+    "color": "#90A4AE"
+  },
+  {
+    "id": "_zyWl0VZ-QY",
+    "title": "Épisode 15 - Les Aimants",
+    "emoji": "🧲",
+    "color": "#E57373"
+  },
+  {
+    "id": "-GXH412-Sek",
+    "title": "Épisode 16 - Vive Le Maïs",
+    "emoji": "🌽",
+    "color": "#FFF176"
+  },
+  {
+    "id": "hgKNzwH4bqI",
+    "title": "Épisode 17 - Anniversaire",
+    "emoji": "🎂",
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "bvYIjm5VO6Y",
+    "title": "Épisode 18 - Voir, Entendre, Sentir",
+    "emoji": "👁️",
+    "color": "#64B5F6"
+  },
+  {
+    "id": "N7FY3aQgdF0",
+    "title": "Épisode 19 - Et Patati Et Patata",
+    "emoji": "💬",
+    "color": "#BA68C8"
+  },
+  {
+    "id": "YrginQqdQfc",
+    "title": "Épisode 20 - Feu de Camp",
+    "emoji": "🔥",
+    "color": "#FF7043"
+  },
+  {
+    "id": "aT5o42Nd_PA",
+    "title": "Épisode 21 - La Panne d'Électricité",
+    "emoji": "💡",
+    "color": "#FFD54F"
+  },
+  {
+    "id": "YzHbNtS5W7k",
+    "title": "Épisode 22 - Les Feuilles Mortes",
+    "emoji": "🍂",
+    "color": "#D4A574"
+  },
+  {
+    "id": "6xDAwaQnaxM",
+    "title": "Épisode 23 - Les Labours",
+    "emoji": "🚜",
+    "color": "#8D6E63"
+  },
+  {
+    "id": "8GUAI38THCc",
+    "title": "Épisode 24 - Les Messages",
+    "emoji": "✉️",
+    "color": "#4DD0E1"
+  },
+  {
+    "id": "OJlyiyUKp6Q",
+    "title": "Épisode 25 - La Grenouille",
+    "emoji": "🐸",
+    "color": "#66BB6A"
+  },
+  {
+    "id": "ABU-_jS2J24",
+    "title": "Épisode 26 - Le Cheval",
+    "emoji": "🐴",
+    "color": "#A1887F"
+  },
+  {
+    "id": "Yn2X7r-FVgU",
+    "title": "Épisode 27 - On Se Déguise",
+    "emoji": "🎭",
+    "color": "#F06292"
+  },
+  {
+    "id": "qNJtwxNo_DY",
+    "title": "Épisode 28 - L'orignal",
+    "emoji": "🦌",
+    "color": "#795548"
+  },
+  {
+    "id": "JQaDpm0ocCw",
+    "title": "Épisode 29 - Ressemblances et Différences",
+    "emoji": "🔍",
+    "color": "#9575CD"
+  },
+  {
+    "id": "FrX41DNwA7A",
+    "title": "Épisode 30 - La Maison",
+    "emoji": "🏠",
+    "color": "#EF5350"
+  },
+  {
+    "id": "1us0k1TpySk",
+    "title": "Épisode 31 - Où Est Le Chat De Grand-Mère",
+    "emoji": "🐱",
+    "color": "#FFB74D"
+  },
+  {
+    "id": "OgxP0UhambQ",
+    "title": "Épisode 32 - Les Déchets",
+    "emoji": "♻️",
+    "color": "#4CAF50"
+  },
+  {
+    "id": "pAllvKQQFME",
+    "title": "Épisode 33 - On Se Prépare à Hiberner",
+    "emoji": "🐻",
+    "color": "#8D6E63"
+  },
+  {
+    "id": "gxrfCvHen3g",
+    "title": "Épisode 34 - Les Pompiers",
+    "emoji": "🚒",
+    "color": "#E53935"
+  },
+  {
+    "id": "dLzruN4H850",
+    "title": "Épisode 35 - On Joue",
+    "emoji": "🎮",
+    "color": "#7E57C2"
+  },
+  {
+    "id": "QBhNwC1Ru_w",
+    "title": "Épisode 36 - Histoire De Chaise",
+    "emoji": "🪑",
+    "color": "#6D4C41"
+  },
+  {
+    "id": "vqSZdqsy_z4",
+    "title": "Épisode 37 - Matériaux et Outils",
+    "emoji": "🔨",
+    "color": "#78909C"
+  },
+  {
+    "id": "_wW2vpqv__I",
+    "title": "Épisode 38 - Le Temps Des Fêtes",
+    "emoji": "🎄",
+    "color": "#43A047"
+  },
+  {
+    "id": "YHtrd-ouHLY",
+    "title": "Épisode 39 - Joyeux Noël!",
+    "emoji": "🎅",
+    "color": "#C62828"
+  },
+  {
+    "id": "QJj5bMsFI6w",
+    "title": "Épisode 40 - Fleurs Séchées",
+    "emoji": "🌺",
+    "color": "#EC407A"
+  },
+  {
+    "id": "cVcBRbq2ZxY",
+    "title": "Épisode 41 - Le Papier",
+    "emoji": "📄",
+    "color": "#BDBDBD"
+  },
+  {
+    "id": "HWuizHPiWts",
+    "title": "Épisode 42 - Le Vent",
+    "emoji": "💨",
+    "color": "#B0BEC5"
+  },
+  {
+    "id": "k1Gf11eGwDE",
+    "title": "Épisode 43 - Nom et Identité",
+    "emoji": "🆔",
+    "color": "#5C6BC0"
+  },
+  {
+    "id": "4PVQxrCDCm4",
+    "title": "Épisode 44 - La Bibliothèque",
+    "emoji": "📚",
+    "color": "#8E24AA"
+  },
+  {
+    "id": "CReDuSi4W2A",
+    "title": "Épisode 45 - Arrêtez De Pousser",
+    "emoji": "✋",
+    "color": "#FB8C00"
+  },
+  {
+    "id": "pp_D0L5FvCo",
+    "title": "Épisode 46 - Je Me Brosse Les Dents",
+    "emoji": "🪥",
+    "color": "#00BCD4"
+  },
+  {
+    "id": "TgoDc4kybJI",
+    "title": "Épisode 47 - La Réprimande",
+    "emoji": "😠",
+    "color": "#E91E63"
+  },
+  {
+    "id": "C24MySlm0mk",
+    "title": "Épisode 48 - Les Vêtements",
+    "emoji": "👕",
+    "color": "#26A69A"
+  },
+  {
+    "id": "9rGeZ8fq1HA",
+    "title": "Épisode 49 - Le Hockey",
+    "emoji": "🏒",
+    "color": "#1976D2"
+  },
+  {
+    "id": "zDeLc-DflDI",
+    "title": "Épisode 50 - Cheveux et Poils",
+    "emoji": "💇",
+    "color": "#D81B60"
+  },
+  {
+    "id": "u2rofMjzBDY",
+    "title": "Épisode 51 - Ça Va Mal Aujourd'hui",
+    "emoji": "😔",
+    "color": "#607D8B"
+  },
+  {
+    "id": "h4w6Kg19hkI",
+    "title": "Épisode 52 - Les Sculptures",
+    "emoji": "🗿",
+    "color": "#9E9E9E"
+  },
+  {
+    "id": "PDEjBCS8qt0",
+    "title": "Épisode 53 - Le Petit Matin",
+    "emoji": "🌅",
+    "color": "#FF9800"
+  },
+  {
+    "id": "J_DA550PQKA",
+    "title": "Épisode 54 - Les Muscles",
+    "emoji": "💪",
+    "color": "#EF6C00"
+  },
+  {
+    "id": "eYKUS28Bgug",
+    "title": "Épisode 55 - Goûts et Aptitudes",
+    "emoji": "🎨",
+    "color": "#AB47BC"
+  },
+  {
+    "id": "hzDvDOfr60Q",
+    "title": "Épisode 56 - Les Glaçons",
+    "emoji": "🧊",
+    "color": "#29B6F6"
+  },
+  {
+    "id": "in6BOHlTbvI",
+    "title": "Épisode 57 - La Laine",
+    "emoji": "🧶",
+    "color": "#F48FB1"
+  },
+  {
+    "id": "a7FwREX5jB0",
+    "title": "Épisode 58 - Les Poissons",
+    "emoji": "🐠",
+    "color": "#00ACC1"
+  },
+  {
+    "id": "RtFuIjfv71I",
+    "title": "Épisode 59 - Les Chinois",
+    "emoji": "🏮",
+    "color": "#F44336"
+  },
+  {
+    "id": "_QFdEt7JsQo",
+    "title": "Épisode 60 - Lourd et Léger",
+    "emoji": "⚖️",
+    "color": "#FFC107"
+  },
+  {
+    "id": "hhyGis66BNg",
+    "title": "Épisode 61 - Une Vitre Cassée",
+    "emoji": "🪟",
+    "color": "#03A9F4"
+  },
+  {
+    "id": "eurmoYGKBu4",
+    "title": "Épisode 62 - Le Petit Sapin",
+    "emoji": "🌲",
+    "color": "#388E3C"
+  },
+  {
+    "id": "gBCMIwZAokM",
+    "title": "Épisode 63 - Pas De Géant",
+    "emoji": "👣",
+    "color": "#8BC34A"
+  },
+  {
+    "id": "Fol5W021BL0",
+    "title": "Épisode 64 - Du Lait Pour Les Bébés",
+    "emoji": "🍼",
+    "color": "#BBDEFB"
+  },
+  {
+    "id": "aVpaN_QIBR0",
+    "title": "Épisode 65 - Raquettes et Mocassins",
+    "emoji": "👟",
+    "color": "#A1887F"
+  },
+  {
+    "id": "jZrLIkeb0R0",
+    "title": "Épisode 66 - Dans La Neige",
+    "emoji": "❄️",
+    "color": "#E1F5FE"
+  },
+  {
+    "id": "QpvOwoZ4688",
+    "title": "Épisode 67 - Une Journée d'hiver",
+    "emoji": "⛄",
+    "color": "#B3E5FC"
+  },
+  {
+    "id": "iJDUvAoyD5M",
+    "title": "Épisode 68 - L'école Maternelle",
+    "emoji": "🏫",
+    "color": "#9C27B0"
+  },
+  {
+    "id": "-eW3fukEgTc",
+    "title": "Épisode 69 - On Ne Parle Pas, On Chante",
+    "emoji": "🎤",
+    "color": "#E040FB"
+  },
+  {
+    "id": "RMVYFDga8Zg",
+    "title": "Épisode 70 - Les Voix, C'est Pas Pareil",
+    "emoji": "🗣️",
+    "color": "#7C4DFF"
+  },
+  {
+    "id": "bBAY5qFIH08",
+    "title": "Épisode 71 - Miroir, Miroir",
+    "emoji": "🪞",
+    "color": "#CE93D8"
+  },
+  {
+    "id": "BXuQo0ejOhk",
+    "title": "Épisode 72 - Naissance et Renaissance",
+    "emoji": "🌱",
+    "color": "#AED581"
+  },
+  {
+    "id": "edzStpJf9a0",
+    "title": "Épisode 73 - Jeux Dramatiques",
+    "emoji": "🎪",
+    "color": "#FF6F00"
+  },
+  {
+    "id": "TQ2gh63gsNc",
+    "title": "Épisode 74 - Le Travail",
+    "emoji": "👷",
+    "color": "#FF9E80"
+  },
+  {
+    "id": "1MYeiqVXCqk",
+    "title": "Épisode 75 - Trop et Assez",
+    "emoji": "📊",
+    "color": "#80DEEA"
+  },
+  {
+    "id": "UWIav2Hd7Ac",
+    "title": "Épisode 76 - Le Village",
+    "emoji": "🏘️",
+    "color": "#BCAAA4"
+  },
+  {
+    "id": "1hIBGoNENA0",
+    "title": "Épisode 77 - Promenade Dans Le Bois",
+    "emoji": "🌳",
+    "color": "#689F38"
+  },
+  {
+    "id": "84eWGAR5_Tw",
+    "title": "Épisode 78 - La Glace",
+    "emoji": "🧊",
+    "color": "#80D8FF"
+  },
+  {
+    "id": "wooxizDpj4A",
+    "title": "Épisode 79 - Le Pipi Au Lit",
+    "emoji": "🛏️",
+    "color": "#9FA8DA"
+  },
+  {
+    "id": "tO7ryaIuKFU",
+    "title": "Épisode 80 - Le Nez",
+    "emoji": "👃",
+    "color": "#FFAB91"
+  },
+  {
+    "id": "Hnsg1uwzyBI",
+    "title": "Épisode 81 - La Patience",
+    "emoji": "⏳",
+    "color": "#FFCC80"
+  },
+  {
+    "id": "IF-XkOyp9Q8",
+    "title": "Épisode 82 - La Plus Grosse Menterie",
+    "emoji": "🤥",
+    "color": "#A5D6A7"
+  },
+  {
+    "id": "p0U58r7cCtk",
+    "title": "Épisode 83 - La Traîne Sauvage",
+    "emoji": "🛷",
+    "color": "#FFE082"
+  },
+  {
+    "id": "UjDlxcgQasE",
+    "title": "Épisode 84 - Goéland, Pic-Bois ou Fauvette",
+    "emoji": "🐦",
+    "color": "#90CAF9"
+  },
+  {
+    "id": "ot2TXXp5XME",
+    "title": "Épisode 85 - Au Printemps, La Perdriole",
+    "emoji": "🌸",
+    "color": "#F8BBD0"
+  },
+  {
+    "id": "O5QfEdttZFk",
+    "title": "Épisode 86 - Le Distrait",
+    "emoji": "😵",
+    "color": "#FFCCBC"
+  },
+  {
+    "id": "ZEfbJQnt4Cc",
+    "title": "Épisode 87 - Qui Est Où",
+    "emoji": "📍",
+    "color": "#EF9A9A"
+  },
+  {
+    "id": "s0lcDs9QKG4",
+    "title": "Épisode 88 - L'été s'en Vient",
+    "emoji": "☀️",
+    "color": "#FFEB3B"
+  },
+  {
+    "id": "IULX8xHrSaI",
+    "title": "Épisode 89 - Le Chocolat",
+    "emoji": "🍫",
+    "color": "#6D4C41"
+  },
+  {
+    "id": "b32vJDHy3kQ",
+    "title": "Épisode 90 - La Fête De L'eau",
+    "emoji": "💧",
+    "color": "#4FC3F7"
+  },
+  {
+    "id": "TOvltTIh1hs",
+    "title": "Épisode 91 - J'écoute Et Je Regarde",
+    "emoji": "👂",
+    "color": "#C5E1A5"
+  },
+  {
+    "id": "H4h0LFtl8as",
+    "title": "Épisode 92 - Une île",
+    "emoji": "🏝️",
+    "color": "#4DB6AC"
+  },
+  {
+    "id": "2wUyM1tinLk",
+    "title": "Épisode 93 - L'épicerie",
+    "emoji": "🛒",
+    "color": "#DCE775"
+  },
+  {
+    "id": "HSvixXJIXc4",
+    "title": "Épisode 94 - Bon Coup, Mauvais Coup",
+    "emoji": "⚡",
+    "color": "#FFF59D"
+  },
+  {
+    "id": "kH5zVWg2c3M",
+    "title": "Épisode 95 - Cause et Effet",
+    "emoji": "🔗",
+    "color": "#B39DDB"
+  },
+  {
+    "id": "UkSFCeNJGr8",
+    "title": "Épisode 96 - Le Sable C'est Fait Pour...",
+    "emoji": "🏖️",
+    "color": "#FFCCBC"
+  },
+  {
+    "id": "TZ_2z-w7Tn8",
+    "title": "Épisode 97 - Laissez-Moi Parler",
+    "emoji": "🗨️",
+    "color": "#81C784"
+  },
+  {
+    "id": "1xx6gkJ2bhs",
+    "title": "Épisode 98 - On Joue à la Cachette",
+    "emoji": "🙈",
+    "color": "#FFB74D"
+  },
+  {
+    "id": "CjVoGld2QXg",
+    "title": "Épisode 99 - La Corde à Danser",
+    "emoji": "🪢",
+    "color": "#F48FB1"
+  },
+  {
+    "id": "wDooSFDRf8A",
+    "title": "Épisode 100 - Le Cirque",
+    "emoji": "🎪",
+    "color": "#FF6B6B"
   }
 ]
