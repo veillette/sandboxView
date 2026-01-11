@@ -38,3 +38,6 @@ Thumbs.db
 # Cache
 .cache/
 .parcel-cache/
+
+# Downloaded videos (large files)
+public/videos/

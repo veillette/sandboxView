@@ -17,7 +17,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "serve": "vite preview --host"
+    "serve": "vite preview --host",
+    "download-videos": "node src/download-videos.js"
   },
   "browserslist": {
     "production": [

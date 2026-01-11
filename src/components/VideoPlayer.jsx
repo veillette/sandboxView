@@ -18,7 +18,9 @@ import YouTube from 'react-youtube';
 const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
+  const [useLocalVideo, setUseLocalVideo] = useState(false);
   const playerRef = useRef(null);
+  const videoRef = useRef(null);
 
   /**
    * YouTube Player Configuration
@@ -64,11 +66,24 @@ const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
     event.target.playVideo();
   }, []);
 
-  // Handle player error
+  // Get local video path
+  const getLocalVideoPath = useCallback(() => {
+    // Sanitize filename (same as download script)
+    const safeTitle = video.title
+      .replace(/[<>:"/\\|?*]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    // Use the base path from vite.config.js
+    return `/sandboxView/videos/${safeTitle}.mp4`;
+  }, [video.title]);
+
+  // Handle player error - try local video fallback
   const handleError = useCallback((event) => {
     console.error('YouTube Player Error:', event.data);
-    setHasError(true);
-    setIsLoading(false);
+    console.log('Attempting to load local video...');
+    setUseLocalVideo(true);
+    setIsLoading(true);
+    setHasError(false);
   }, []);
 
   // Handle video end - return to grid or replay
@@ -80,11 +95,40 @@ const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
     }
   }, []);
 
+  // Handle local video ready
+  const handleLocalVideoReady = useCallback(() => {
+    setIsLoading(false);
+    if (videoRef.current) {
+      videoRef.current.play().catch(err => {
+        console.error('Error playing local video:', err);
+        setHasError(true);
+      });
+    }
+  }, []);
+
+  // Handle local video error
+  const handleLocalVideoError = useCallback(() => {
+    console.error('Local video failed to load');
+    setHasError(true);
+    setIsLoading(false);
+  }, []);
+
+  // Handle local video end
+  const handleLocalVideoEnd = useCallback(() => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play();
+    }
+  }, []);
+
   // Cleanup on unmount
   useEffect(() => {
     return () => {
       if (playerRef.current) {
         playerRef.current.stopVideo();
+      }
+      if (videoRef.current) {
+        videoRef.current.pause();
       }
     };
   }, []);
@@ -138,21 +182,38 @@ const VideoPlayer = memo(function VideoPlayer({ video, onBack }) {
         </div>
       )}
 
-      {/* YouTube Player */}
+      {/* Video Player */}
       <div className="player-wrapper">
-        <YouTube
-          videoId={video.id}
-          opts={playerOpts}
-          onReady={handleReady}
-          onError={handleError}
-          onEnd={handleEnd}
-          className="youtube-player"
-          iframeClassName="youtube-iframe"
-        />
+        {!useLocalVideo ? (
+          <>
+            {/* YouTube Player */}
+            <YouTube
+              videoId={video.id}
+              opts={playerOpts}
+              onReady={handleReady}
+              onError={handleError}
+              onEnd={handleEnd}
+              className="youtube-player"
+              iframeClassName="youtube-iframe"
+            />
 
-        {/* Overlay to block YouTube logo and other clickable elements */}
-        <div className="player-overlay-top" />
-        <div className="player-overlay-bottom" />
+            {/* Overlay to block YouTube logo and other clickable elements */}
+            <div className="player-overlay-top" />
+            <div className="player-overlay-bottom" />
+          </>
+        ) : (
+          /* Local HTML5 Video Player */
+          <video
+            ref={videoRef}
+            className="local-video-player"
+            src={getLocalVideoPath()}
+            controls
+            onLoadedData={handleLocalVideoReady}
+            onError={handleLocalVideoError}
+            onEnded={handleLocalVideoEnd}
+            style={{ width: '100%', height: '100%', backgroundColor: '#000' }}
+          />
+        )}
       </div>
     </div>
   );
