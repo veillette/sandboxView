@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B5CE7"/>
+      <stop offset="100%" style="stop-color:#4B3CC7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <!-- Play button circle -->
+  <circle cx="96" cy="96" r="52" fill="white" opacity="0.95"/>
+  <!-- Play triangle -->
+  <path d="M82 70 L82 122 L126 96 Z" fill="#6B5CE7"/>
+  <!-- Sparkles -->
+  <circle cx="40" cy="40" r="6" fill="#FFE66D"/>
+  <circle cx="152" cy="40" r="6" fill="#FF6B9D"/>
+  <circle cx="40" cy="152" r="6" fill="#4ECDC4"/>
+  <circle cx="152" cy="152" r="6" fill="#95E1D3"/>
+</svg>
